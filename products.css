@@ -1,0 +1,138 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: rgb(179, 179, 179);
+}
+.site-header {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+
+}
+.site-identity h1 {
+    font-size: 1.5em;
+    margin: 0.6em 0;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+.site-indentity a{
+    font-family: 'Playfair Display', serif;
+}
+.site-navigation ul,
+.site-navigation li {
+    margin: 0;
+    padding: 0;
+}
+.site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+}
+.productintro{
+    color: white;
+    text-align: left;
+    width: 50%;
+    border: 0.188rem;
+    padding: 0.625rem;
+    margin-top: 8rem;
+    font-size: large;
+    position: absolute;
+    z-index: 100;
+    
+}
+
+.pro img{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    max-width: 100%;
+    aspect-ratio: auto;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    height:100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  .contact{
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+float: right;
+}  
+.aboutpamposh{
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    float:left;
+}
+
+/*.leathergarments
+{   float:right;
+    background-color: #ccc;
+    display: inline;
+}
+.leathershoes
+{   float:right;
+    background-color: #ccc;
+    display: inline;
+}
+.leathergloves
+{   float:right;
+    background-color: #ccc;
+    display: inline;
+}
+
+.leatherbags
+{   float:right;
+    background-color: #ccc;
+
+    display: block;
+}
+.saddelery
+{float:right;
+    background-color: #ccc;
+
+    display: inline;
+}
+.leathergarments img
+{
+    width: 30%;
+}
+.leathershoes img
+{
+    width: 30%;
+}
+.leathergloves img
+{
+    width: 30%;
+}
+
+.leatherbags img
+{
+    width: 30%;
+}
+.saddelery img
+{
+    width: 30%;
+}
+*/
+ul.products li {
+    width: 20%;
+    height: 20%;
+    display: inline-block;
+}
+
+.saddelery{
+    background-color: #ccc;
+}
+
+.garments{
+    background-color:#ccc;
+}

@@ -1,0 +1,146 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: rgb(179, 179, 179);
+}
+.site-header {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+
+}
+.site-identity h1 {
+    font-size: 1.5em;
+    margin: 0.6em 0;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+.site-identity a{
+    font-family: 'Playfair Display', serif;
+}
+.site-navigation ul,
+.site-navigation li {
+    margin: 0;
+    padding: 0;
+}
+.site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+}
+.header-image {
+    background-image: url(“.jpg”);
+    }
+header{
+height: 3em;
+}
+
+.whatpc{
+    color: white;
+    text-align: left;
+    width: 50%;
+    border: 0.188rem;
+    padding: 0.625rem;
+    margin-top: 8rem;
+    font-size: large;
+    position: absolute;
+    z-index: 100;
+    
+}
+
+.pamposhchemimg img{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    max-width: 100%;
+    aspect-ratio: auto;
+}
+
+.pamposhchem h1 {    
+    text-align: left; 
+    padding-left: 30px;
+    }
+
+.aboutpc p{
+    border: #ccc;
+    background-color: white;
+    margin-top: 7rem;
+    margin-left: 10em;
+    float:left;
+    position: absolute;
+    width:35%;
+    height:17.5em;
+    z-index: 3;
+    display: inline;
+    font-size: 4h;
+    
+}    
+
+.imageb img{ 
+    position: absolute;
+    display: inline;
+    float:right;
+    margin-left: 25rem;
+    background-color: white;
+    z-index: 1;
+    width:70%;
+    height: 80%;
+    aspect-ratio: auto;
+    position: absolute;
+}
+
+.tanning{
+    text-align: left;
+    display: inline-block;
+
+}
+
+.retaining{
+    text-align: left;
+    display: inline-block;
+}
+
+.Fatliqouring{
+   
+   
+    text-align: left;
+    display: inline-block;
+
+}
+
+.Dyeing{
+    
+    display: inline-block;
+    text-align: left;
+}
+
+.Fininshing{
+   
+    display: inline-block;
+    text-align: left;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    height:100%;
+    width: 100%;
+    color: white;
+  }
+  .contact{
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    float: right;
+}  
+.aboutpamposh{
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    float:left;
+}

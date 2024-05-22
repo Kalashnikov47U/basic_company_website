@@ -1,0 +1,99 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: rgb(179, 179, 179);
+}
+.site-header {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+
+}
+.site-identity h1 {
+    font-size: 1.5em;
+    margin: 0.6em 0;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+.site-navigation ul,
+.site-navigation li {
+    margin: 0;
+    padding: 0;
+}
+.site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    height:100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  .contact{
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    float: right;
+}  
+.aboutpamposh{
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    float:left;
+}
+
+ .textf{
+    float:left;
+    width:30rem;
+    margin-right: 10rem;
+    height:auto;
+    display: inline;
+    text-align:left;
+}
+.photo1 img{
+    position: absolute;
+    display: inline;
+    float:right;
+    width: 50%;
+    height: 75%;
+    margin-right: 5rem;
+    background-color: white;
+    aspect-ratio: auto;
+    position: absolute;
+    
+}
+
+.objective h1{
+    margin-left: 58rem;
+}
+.texti{
+    float:right;
+    width:25%;
+    height:17.5em;
+    z-index: 3;
+    margin-right: 5rem;
+    margin-top: -3rem;
+    display: inline;
+    text-align: center;
+}
+
+.photo2 img{
+    margin-top: 7rem;
+    margin-left: 10em;
+    float:left;
+    width:50%;
+    height:50%;
+    margin-left: 5rem;
+    margin-top: -5rem;
+    
+    display: inline;
+    text-align: center;
+}
